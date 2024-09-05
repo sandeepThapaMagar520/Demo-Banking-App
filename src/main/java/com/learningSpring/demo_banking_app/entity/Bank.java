@@ -23,8 +23,20 @@ public class Bank {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long customerId;
 
+    @Column(name = "customerAccountNumber")
+    private String customerAccountNumber;
+    
     @Column(name="customerName")
     private String customerName;
+
+    @Column(name = "customerPhone")
+    private String customerPhone;
+
+    @Column(name="customerEmail")
+    private String customerEmail;
+
+    @Column(name = "customerBalance")
+    private double customerBalance;
 
 
 }
