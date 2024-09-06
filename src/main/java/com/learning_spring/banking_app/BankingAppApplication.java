@@ -1,13 +1,13 @@
-package com.learningSpring.demo_banking_app;
+package com.learning_spring.banking_app;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DemoBankingAppApplication {
+public class BankingAppApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DemoBankingAppApplication.class, args);
+		SpringApplication.run(BankingAppApplication.class, args);
 	}
 
 }
